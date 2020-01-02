@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Azathoth\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Azathoth\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_CourseLibrary.API.-1477726961.00" t="ExcludeRecursive" />
+    <e p="D:\MyProjects\CourseLibrariAPI\Library.API" t="IncludeFlat">
+      <e p="CLibrary.API" t="IncludeRecursive">
+        <e p="ActionConstraints" t="Include">
+          <e p="RequestHeaderMatchesMediaTypeAttribute.cs" t="Include" />
+        </e>
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CLibrary.API.csproj" t="IncludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="AuthorCollectionsController.cs" t="Include" />
+          <e p="AuthorsController.cs" t="Include" />
+          <e p="CoursesController.cs" t="Include" />
+          <e p="RootController.cs" t="Include" />
+        </e>
+        <e p="DbContexts" t="Include">
+          <e p="CourseLibraryContext.cs" t="Include" />
+        </e>
+        <e p="Entities" t="Include">
+          <e p="Author.cs" t="Include" />
+          <e p="Course.cs" t="Include" />
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="ArrayModelBinder.cs" t="Include" />
+          <e p="DateTimeOffsetExtensions.cs" t="Include" />
+          <e p="IEnumerableExtensions.cs" t="Include" />
+          <e p="IPropertyMapping.cs" t="Include" />
+          <e p="IQueryableExtensions.cs" t="Include" />
+          <e p="LoggerProvider.cs" t="Include" />
+          <e p="ObjectExtensions.cs" t="Include" />
+          <e p="PagedList.cs" t="Include" />
+          <e p="PropertyMapping.cs" t="Include" />
+          <e p="PropertyMappingValue.cs" t="Include" />
+          <e p="ResourceUriType.cs" t="Include" />
+        </e>
+        <e p="Logging" t="Include">
+          <e p="AbstractLogger.cs" t="Include" />
+          <e p="ILoggingActionFilter.cs" t="Include" />
+          <e p="LoggingActionFilter.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20191227153015_InitialMigration.cs" t="Include" />
+          <e p="20191227153015_InitialMigration.Designer.cs" t="Include" />
+          <e p="20191230223428_AddDateOfDeathToAuthorMigration.cs" t="Include" />
+          <e p="20191230223428_AddDateOfDeathToAuthorMigration.Designer.cs" t="Include" />
+          <e p="CourseLibraryContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="AuthorDTO.cs" t="Include" />
+          <e p="AuthorForCreationDto.cs" t="Include" />
+          <e p="AuthorForCreationWithDateOfDeathDto.cs" t="Include" />
+          <e p="AuthorForManipulationDTO.cs" t="Include" />
+          <e p="AuthorForUpdateDTO.cs" t="Include" />
+          <e p="AuthorFullDto.cs" t="Include" />
+          <e p="CourseDTO.cs" t="Include" />
+          <e p="CourseForCreateDTO.cs" t="Include" />
+          <e p="CourseForManipulationDTO.cs" t="Include" />
+          <e p="CourseForUpdateDTO.cs" t="Include" />
+          <e p="LinkDTO.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="CLibrary.API.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Profiles" t="Include">
+          <e p="AuthorsProfile.cs" t="Include" />
+          <e p="CoursesProfile.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="ResourceParameters" t="Include">
+          <e p="AuthorsResourceParams.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="CourseLibraryRepository.cs" t="Include" />
+          <e p="ICourseLibraryRepository.cs" t="Include" />
+          <e p="IPropertyCheckerService.cs" t="Include" />
+          <e p="IPropertyMappingService.cs" t="Include" />
+          <e p="PropertyCheckerService.cs" t="Include" />
+          <e p="PropertyMappingService.cs" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="ValidationAttributes" t="Include">
+          <e p="CourseTitleDescriptionValidation.cs" t="Include" />
+        </e>
+      </e>
+      <e p="CourseLibrary.API.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
