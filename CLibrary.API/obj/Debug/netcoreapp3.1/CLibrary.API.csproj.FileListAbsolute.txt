@@ -48,3 +48,10 @@ D:\MyProjects\CourseLibrariAPI\Library.API\CLibrary.API\bin\Debug\netcoreapp3.1\
 D:\MyProjects\CourseLibrariAPI\Library.API\CLibrary.API\obj\Debug\netcoreapp3.1\CLibrary.API.MvcApplicationPartsAssemblyInfo.cache
 D:\MyProjects\CourseLibrariAPI\Library.API\CLibrary.API\bin\Debug\netcoreapp3.1\Marvin.Cache.Headers.dll
 D:\MyProjects\CourseLibrariAPI\Library.API\CLibrary.API\obj\Debug\netcoreapp3.1\CLibrary.API.MvcApplicationPartsAssemblyInfo.cs
+D:\MyProjects\CourseLibrariAPI\Library.API\CLibrary.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\MyProjects\CourseLibrariAPI\Library.API\CLibrary.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\MyProjects\CourseLibrariAPI\Library.API\CLibrary.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\MyProjects\CourseLibrariAPI\Library.API\CLibrary.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\MyProjects\CourseLibrariAPI\Library.API\CLibrary.API\bin\Debug\netcoreapp3.1\CLibrary.API.xml
+D:\MyProjects\CourseLibrariAPI\Library.API\CLibrary.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\MyProjects\CourseLibrariAPI\Library.API\CLibrary.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll

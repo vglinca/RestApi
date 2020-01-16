@@ -1,26 +1,27 @@
-﻿using CLibrary.API.ResourceParameters;
-using CourseLibrary.API.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
+using CLibrary.API.Entities;
 using CLibrary.API.Helpers;
+using CLibrary.API.ResourceParameters;
 
-namespace CourseLibrary.API.Services
+namespace CLibrary.API.Services
 {
     public interface ICourseLibraryRepository
     {    
-        IEnumerable<Course> GetCourses(Guid authorId);
-        Course GetCourse(Guid authorId, Guid courseId);
+        Task<IEnumerable<Course>> GetCoursesAsync(Guid authorId);
+        Task<Course> GetCourseAsync(Guid authorId, Guid courseId);
         void AddCourse(Guid authorId, Course course);
         void UpdateCourse(Course course);
         void DeleteCourse(Course course);
         IEnumerable<Author> GetAuthors();
-        Author GetAuthor(Guid authorId);
+        Task<Author> GetAuthorAsync(Guid authorId);
         PagedList<Author> GetAuthors(AuthorsResourceParams authorsResourceParameters);
-        IEnumerable<Author> GetAuthors(IEnumerable<Guid> authorIds);
+        Task<IEnumerable<Author>> GetAuthorsAsync(IEnumerable<Guid> authorIds);
         void AddAuthor(Author author);
         void DeleteAuthor(Author author);
         void UpdateAuthor(Author author);
-        bool AuthorExists(Guid authorId);
-        bool Save();
+        Task<bool> AuthorExistsAsync(Guid authorId);
+        Task<bool> SaveChangesAsync();
     }
 }

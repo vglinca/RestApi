@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CLibrary.API</name>
+    </assembly>
+    <members>
+        <member name="M:CLibrary.API.Controllers.AuthorsController.GetAuthors(CLibrary.API.ResourceParameters.AuthorsResourceParams,System.String)">
+            <summary>
+            Get all list of authors
+            </summary>
+            <param name="resourceParams">Additional parameters you may want to apply to authors list</param>
+            <param name="mediaType">Accepted media type</param>
+            <returns>List of authors</returns>
+        </member>
+        <member name="M:CLibrary.API.Controllers.AuthorsController.GetAuthor(System.Guid,System.String,System.String)">
+            <summary>
+            Get an author by his/her id
+            </summary>
+            <param name="authorId">The id of the author you want to get</param>
+            <param name="fields">Fields you want to see in response body</param>
+            <param name="mediaType">Media type which is being accepted</param>
+            <returns>An author with id, firstname, lastname fields</returns>
+            <response code="200">Returns the requested author</response>
+        </member>
+        <member name="M:CLibrary.API.Controllers.AuthorsController.CreateAuthor(CLibrary.API.Models.AuthorForCreationDto)">
+            <summary>
+            Create a new author
+            </summary>
+            <param name="authorForCreation">Author model</param>
+            <returns>Created author body</returns>
+        </member>
+        <member name="M:CLibrary.API.Controllers.AuthorsController.UpdateAuthor(System.Guid,CLibrary.API.Models.AuthorForUpdateDTO)">
+            <summary>
+            Update author with given authorId
+            </summary>
+            <param name="authorId">Id of an author you want to update</param>
+            <param name="dto">Author model</param>
+        </member>
+        <member name="M:CLibrary.API.Controllers.AuthorsController.PatchAuthor(System.Guid,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{CLibrary.API.Models.AuthorForUpdateDTO})">
+            <summary>
+            Partially update author with given authorId
+            </summary>
+            <param name="authorId">Id of an author you want to update</param>
+            <param name="patchDto"></param>
+        </member>
+        <member name="M:CLibrary.API.Controllers.AuthorsController.Delete(System.Guid)">
+            <summary>
+            Delete author with given authorId
+            </summary>
+            <param name="authorId">Id of the author</param>
+        </member>
+        <member name="M:CLibrary.API.Controllers.CoursesController.PatchCourse(System.Guid,System.Guid,Microsoft.AspNetCore.JsonPatch.JsonPatchDocument{CLibrary.API.Models.CourseForUpdateDto})">
+            <summary>
+            Partially update course of an author
+            </summary>
+            <param name="authorId">The id of the author you want to get</param>
+            <param name="courseId">The id of the course you want to partially update</param>
+            <param name="patchDocument">The set of operation to apply to the course</param>
+            <returns>An IActionResult</returns>
+            <remarks>
+            Sample request (This request updates **course title**)      
+                    '''PATCH /authors/v{version}/authorId/courses/courseId    
+                    [   
+                        {   
+                            "op": "replace",   
+                            "path": "/title",   
+                            "value": "Updated title"   
+                        }   
+                    ] 
+            </remarks>
+        </member>
+        <member name="T:CLibrary.API.Models.AuthorDto">
+            <summary>
+            An author with Id, Name, Age and MainCategory fields
+            </summary>
+        </member>
+        <member name="P:CLibrary.API.Models.AuthorDto.Id">
+            <summary>
+            The Id of an author
+            </summary>
+        </member>
+        <member name="P:CLibrary.API.Models.AuthorDto.Name">
+            <summary>
+            The Name of an author
+            </summary>
+        </member>
+        <member name="P:CLibrary.API.Models.AuthorDto.Age">
+            <summary>
+            The Age of an author
+            </summary>
+        </member>
+        <member name="P:CLibrary.API.Models.AuthorDto.MainCategory">
+            <summary>
+            The MainCategory of an author
+            </summary>
+        </member>
+        <member name="T:CLibrary.API.Models.AuthorForUpdateDTO">
+            <summary>
+            An author for update with FirstName, LastName, DateOfBirth and MainCategory fields
+            </summary>
+        </member>
+        <member name="P:CLibrary.API.Models.AuthorForUpdateDTO.FirstName">
+            <summary>
+            The First Name of an author
+            </summary>
+        </member>
+        <member name="P:CLibrary.API.Models.AuthorForUpdateDTO.LastName">
+            <summary>
+            The Last Name of an author
+            </summary>
+        </member>
+        <member name="P:CLibrary.API.Models.AuthorForUpdateDTO.DateOfBirth">
+            <summary>
+            The Date of Birth of an author
+            </summary>
+        </member>
+        <member name="P:CLibrary.API.Models.AuthorForUpdateDTO.MainCategory">
+            <summary>
+            The Main Category of an author
+            </summary>
+        </member>
+        <member name="P:CLibrary.API.Models.CourseForManipulationDto.Title">
+            <summary>
+            The title of the course
+            </summary>
+        </member>
+        <member name="T:CLibrary.API.Models.CourseForUpdateDto">
+            <summary>
+            A course for update with Title, Description fields
+            </summary>
+        </member>
+        <member name="P:CLibrary.API.Models.CourseForUpdateDto.Description">
+            <summary>
+            The Description of the course
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="C:\Users\Azathoth\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Azathoth\.Rider2019.3\config\extensions" t="IncludeRecursive" />
     <e p="C:\Users\Azathoth\.Rider2019.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Azathoth\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_CourseLibrary.API.-1477726961.00" t="ExcludeRecursive" />
     <e p="D:\MyProjects\CourseLibrariAPI\Library.API" t="IncludeFlat">
@@ -10,8 +12,12 @@
         </e>
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
+        <e p="Auth" t="Include">
+          <e p="BasicAuthHandler.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="CLibrary.API.csproj" t="IncludeRecursive" />
+        <e p="CLibrary.API.xml" t="Include" />
         <e p="Controllers" t="Include">
           <e p="AuthorCollectionsController.cs" t="Include" />
           <e p="AuthorsController.cs" t="Include" />
@@ -69,6 +75,9 @@
               <e p="CLibrary.API.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="OperationFilters" t="Include">
+          <e p="CreateBookOperationFilter.cs" t="Include" />
         </e>
         <e p="Profiles" t="Include">
           <e p="AuthorsProfile.cs" t="Include" />

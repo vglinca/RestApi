@@ -1,13 +1,14 @@
 ﻿using AutoMapper;
 using CLibrary.API.Helpers;
 using CLibrary.API.Models;
-using CourseLibrary.API.Entities;
-using CourseLibrary.API.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
+using CLibrary.API.Entities;
 using CLibrary.API.Logging;
+using CLibrary.API.Services;
 
 namespace CLibrary.API.Controllers{
 
@@ -19,18 +20,18 @@ namespace CLibrary.API.Controllers{
         private readonly ICourseLibraryRepository mRepository;
         private readonly IMapper mMapper;
         public AuthorCollectionsController(ICourseLibraryRepository repository, IMapper mapper){
-            this.mRepository = repository ?? throw new ArgumentNullException(nameof(repository));
-            this.mMapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
+            mRepository = repository ?? throw new ArgumentNullException(nameof(repository));
+            mMapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         }
 
         [HttpGet("({ids})", Name = "GetAuthorCollection")]
-        public ActionResult<IEnumerable<AuthorDto>> GetAuthorCollection(
+        public async Task<ActionResult<IEnumerable<AuthorDto>>> GetAuthorCollection(
         [FromRoute]
         [ModelBinder(BinderType = typeof(ArrayModelBinder))] IEnumerable<Guid> ids){
             if(ids == null){
                 return BadRequest();
             }
-            var authorEntities = mRepository.GetAuthors(ids);
+            var authorEntities = await mRepository.GetAuthorsAsync(ids);
 
             if(ids.Count() != authorEntities.Count()){
                 return NotFound();
@@ -39,8 +40,8 @@ namespace CLibrary.API.Controllers{
             return Ok(authorDtos);
         }
 
-        [HttpPost]
-        public ActionResult<IEnumerable<AuthorDto>> CreateAuthotCollection(
+        [HttpPost(Name = "CreateAuthorsCollection")]
+        public async Task<CreatedAtRouteResult> CreateAuthorsCollection(
             IEnumerable<AuthorForCreationDto> authors){
 
             var authorEntities = mMapper.Map<IEnumerable<Author>>(authors);
@@ -48,12 +49,12 @@ namespace CLibrary.API.Controllers{
             foreach(var author in authorEntities){
                 mRepository.AddAuthor(author);
             }
-            mRepository.Save();
+            await mRepository.SaveChangesAsync();
             var authorDtosToReturn = mMapper.Map<IEnumerable<AuthorDto>>(authorEntities);
             var idsAsString = string.Join(",", authorDtosToReturn.Select(a => a.Id));
 
-            return CreatedAtRoute("GetAuthorCollection", new { ids = idsAsString },
-                authorDtosToReturn);
+            return (CreatedAtRoute("GetAuthorCollection", new{ids = idsAsString},
+                authorDtosToReturn));
         }
     }
 }

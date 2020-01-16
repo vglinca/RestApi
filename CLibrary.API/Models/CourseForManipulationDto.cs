@@ -5,6 +5,9 @@ namespace CLibrary.API.Models {
 
     [CourseTitleDescriptionValidation(ErrorMessage = "Title must be different from description.")]
     public abstract class CourseForManipulationDto {
+        /// <summary>
+        /// The title of the course
+        /// </summary>
         [Required(ErrorMessage = "Title is required.")]
         [MaxLength(100, ErrorMessage = "Title shouldn't have more that 100 characters.")]
         public string Title { get; set; }

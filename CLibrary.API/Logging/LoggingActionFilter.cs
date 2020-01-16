@@ -31,10 +31,12 @@ namespace CLibrary.API.Logging{
             mLogger.LogInformation(GenerateTitle(name) + "Enter action: " + methodName
                                    + nl + "Http Method: " + requestMethod + nl
                                    + "Path: " + path + nl
-                                   + "Query Parameters: {" + nl
-                                   + queryBuilder + "    }" + nl
-                                   + "Request Headers: {" + nl
-                                   + headersBuilder + "    }" + GenerateTitle(name));
+                                   + (queryBuilder.Length == 0 ? "" :
+                                       "Query Parameters: {" + nl
+                                   + queryBuilder + "    }") + nl
+                                   + (headersBuilder.Length == 0 ? "" :
+                                       "Request Headers: {" + nl
+                                   + headersBuilder + "    }") + GenerateTitle(name));
         }
 
         public override void OnActionExecuted(ActionExecutedContext context){
@@ -46,7 +48,6 @@ namespace CLibrary.API.Logging{
             var statusCode = context.HttpContext.Response.StatusCode;
             var headersBuilder = new StringBuilder();
             
-            
             foreach (var (key, value) in context.HttpContext.Response.Headers){
                 headersBuilder.Append($"    [{key}] : [{value}]" + nl);
             }
@@ -55,8 +56,9 @@ namespace CLibrary.API.Logging{
                                    + nl + "Http Method: " + requestMethod + nl
                                    + "Path: " + path + nl
                                    + "Status code: " + statusCode + nl 
-                                   + "Response Headers: {" + nl
-                                   + headersBuilder + "    }" + GenerateTitle(name));
+                                   + (headersBuilder.Length == 0 ? "" : 
+                                       "Response Headers: {" + nl
+                                   + headersBuilder + "    }") + GenerateTitle(name));
         }
     }
 }

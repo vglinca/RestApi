@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using CLibrary.API.Entities;
 using CLibrary.API.Helpers;
 using CLibrary.API.Models;
-using CourseLibrary.API.Entities;
 
 namespace CLibrary.API.Services{
 

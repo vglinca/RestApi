@@ -1,6 +1,6 @@
 ﻿using System;
+using CLibrary.API.Entities;
 using CLibrary.API.Helpers;
-using CourseLibrary.API.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
@@ -84,6 +84,70 @@ namespace CLibrary.API.DbContexts
                     LastName = "Crow Ridley",
                     DateOfBirth = new DateTime(1721, 10, 11),
                     MainCategory = "Rum"
+                },
+                new Author()
+                {
+                    Id = Guid.Parse("9245fe4a-d402-451c-b9ed-9c1a04247482"),
+                    FirstName = "Jason",
+                    LastName = "Netherthon",
+                    DateOfBirth = new DateTime(1971, 10, 11),
+                    MainCategory = "Play"
+                // },
+                // new Author()
+                // {
+                //     Id = Guid.Parse("7be89ge4-fyk6-4f73-7511-3yb25b6ca33f"),
+                //     FirstName = "Jari",
+                //     LastName = "Maenpaa",
+                //     DateOfBirth = new DateTime(1976, 11, 3),
+                //     MainCategory = "Singing"
+                // },
+                // new Author()
+                // {
+                //     Id = Guid.Parse("5ddag2df-7caf-34tb-9355-1q7832985b98"),
+                //     FirstName = "Adam",
+                //     LastName = "Fearless Cloven",
+                //     DateOfBirth = new DateTime(1983, 4, 5),
+                //     MainCategory = "General debauchery"
+                // },
+                // new Author()
+                // {
+                //     Id = Guid.Parse("ne2ft609-t457-4mar-8dca-z4f9vv13po69"),
+                //     FirstName = "Andy",
+                //     LastName = "Ryezgorhf",
+                //     DateOfBirth = new DateTime(1668, 5, 21),
+                //     MainCategory = "Rum"
+                // },
+                // new Author()
+                // {
+                //     Id = Guid.Parse("1236b666-1488-4c70-9815-f6t2d9172450"),
+                //     FirstName = "Ivar",
+                //     LastName = "The Boneless",
+                //     DateOfBirth = new DateTime(1701, 12, 16),
+                //     MainCategory = "General Debauchery"
+                // },
+                // new Author()
+                // {
+                //     Id = Guid.Parse("5idgaf2f-7cat-54yb-2724-1q7454985b23"),
+                //     FirstName = "Hvitserk",
+                //     LastName = "Lothbrok",
+                //     DateOfBirth = new DateTime(1563, 12, 22),
+                //     MainCategory = "Boozing"
+                // },
+                // new Author()
+                // {
+                //     Id = Guid.Parse("ad5tf948-t346-4jan-8fgr-z4f9ol13ss69"),
+                //     FirstName = "Mickal",
+                //     LastName = "Rzepsewsky",
+                //     DateOfBirth = new DateTime(1668, 5, 21),
+                //     MainCategory = "Rum"
+                // },
+                // new Author()
+                // {
+                //     Id = Guid.Parse("1511b114-3432-7u89-3862-n32d917590y"),
+                //     FirstName = "Lauri",
+                //     LastName = "Honkalampi",
+                //     DateOfBirth = new DateTime(1995, 4, 7),
+                //     MainCategory = "Play"
                 }
                 );
 

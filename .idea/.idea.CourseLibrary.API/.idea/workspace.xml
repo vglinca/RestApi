@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d9830c4-f09e-4761-b868-d93b8ff56daa" name="Default Changelist" comment="" />
+    <list default="true" id="2d9830c4-f09e-4761-b868-d93b8ff56daa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CourseLibrary.API/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CourseLibrary.API/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CourseLibrary.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CourseLibrary.API/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CourseLibrary.API/DesignTimeBuild/.dtbcache" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CourseLibrary.API/DesignTimeBuild/.dtbcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CourseLibrary.API/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CourseLibrary.API/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CourseLibrary.API/v16/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CourseLibrary.API/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/CLibrary.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/CLibrary.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Controllers/AuthorCollectionsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Controllers/AuthorCollectionsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Controllers/AuthorsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Controllers/AuthorsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Controllers/CoursesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Controllers/CoursesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/DbContexts/CourseLibraryContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/DbContexts/CourseLibraryContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Entities/Author.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Entities/Author.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Entities/Course.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Entities/Course.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Logging/LoggingActionFilter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Logging/LoggingActionFilter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Models/AuthorDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Models/AuthorDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Models/AuthorForCreationDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Models/AuthorForCreationDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Models/AuthorForCreationWithDateOfDeathDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Models/AuthorForCreationWithDateOfDeathDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Models/AuthorForUpdateDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Models/AuthorForUpdateDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Models/CourseForManipulationDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Models/CourseForManipulationDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Models/CourseForUpdateDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Models/CourseForUpdateDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Profiles/AuthorsProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Profiles/AuthorsProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Profiles/CoursesProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Profiles/CoursesProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Services/CourseLibraryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Services/CourseLibraryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Services/ICourseLibraryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Services/ICourseLibraryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Services/PropertyMappingService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Services/PropertyMappingService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/bin/Debug/netcoreapp3.1/CLibrary.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/bin/Debug/netcoreapp3.1/CLibrary.API.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/bin/Debug/netcoreapp3.1/CLibrary.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/bin/Debug/netcoreapp3.1/CLibrary.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/bin/Debug/netcoreapp3.1/CLibrary.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/bin/Debug/netcoreapp3.1/CLibrary.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/obj/CLibrary.API.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/obj/CLibrary.API.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/obj/CLibrary.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/obj/CLibrary.API.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/obj/CLibrary.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/obj/CLibrary.API.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/obj/CLibrary.API.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/obj/CLibrary.API.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/obj/Debug/netcoreapp3.1/CLibrary.API.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/obj/Debug/netcoreapp3.1/CLibrary.API.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/obj/Debug/netcoreapp3.1/CLibrary.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/obj/Debug/netcoreapp3.1/CLibrary.API.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/obj/Debug/netcoreapp3.1/CLibrary.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/obj/Debug/netcoreapp3.1/CLibrary.API.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/obj/Debug/netcoreapp3.1/CLibrary.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/obj/Debug/netcoreapp3.1/CLibrary.API.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/obj/Debug/netcoreapp3.1/CLibrary.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/obj/Debug/netcoreapp3.1/CLibrary.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/obj/Debug/netcoreapp3.1/CLibrary.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/obj/Debug/netcoreapp3.1/CLibrary.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLibrary.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CLibrary.API/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CourseLibrary.API.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/CourseLibrary.API.sln.DotSettings.user" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +63,41 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="LocalDB" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="LocalDB" type="feb32156:DbDataSourceImpl" />
+        <item name="CourseLibraryDB: database" type="ccb7ac2a:MsImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="LocalDB" type="feb32156:DbDataSourceImpl" />
+        <item name="CourseLibraryDB: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="LocalDB" type="feb32156:DbDataSourceImpl" />
+        <item name="CourseLibraryDB: database" type="ccb7ac2a:MsImplModel$Database" />
+        <item name="dbo: schema" type="2865ee2e:MsImplModel$Schema" />
+        <item name="Authors: table" type="63ab2ba1:MsImplModel$Table" />
+      </path>
+    </expand>
     <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Services/PropertyCheckerService.cs" root0="FORCE_HIGHLIGHTING" />
@@ -35,15 +113,19 @@
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Models/LinkDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Services/IPropertyCheckerService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Models/CourseForUpdateDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CLibrary.API/Models/AuthorForUpdateDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Helpers/LoggerProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Helpers/DateTimeOffsetExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CLibrary.API/Helpers/ArrayModelBinder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Entities/Author.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CLibrary.API/Entities/Course.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Profiles/CoursesProfile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Models/AuthorFullDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Profiles/AuthorsProfile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Services/CourseLibraryRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Services/ICourseLibraryRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CLibrary.API/DbContexts/CourseLibraryContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CLibrary.API/Properties/launchSettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Controllers/CoursesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Controllers/AuthorCollectionsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Controllers/AuthorsController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,20 +144,21 @@
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Helpers/IPropertyMapping.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Services/IPropertyMappingService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Helpers/IQueryableExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CLibrary.API/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CLibrary.API/OperationFilters/CreateBookOperationFilter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/56C02F65-7F8E-4DE0-B35F-CD26C3C2693D/14E/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/530EA6F8-FA83-415D-BB26-3558E38AABC4/F3/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CLibrary.API/ActionConstraints/RequestHeaderMatchesMediaTypeAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CLibrary.API/Auth/BasicAuthHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CLibrary.API/Models/AuthorForCreationWithDateOfDeathDto.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/CLibrary.API/Program.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/Helpers/PagedList.cs" />
-        <option value="$PROJECT_DIR$/CLibrary.API/Services/ICourseLibraryRepository.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/Helpers/PropertyMappingValue.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/Helpers/IPropertyMapping.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/Helpers/PropertyMapping.cs" />
-        <option value="$PROJECT_DIR$/CLibrary.API/Services/CourseLibraryRepository.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/Services/PropertyMappingService.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/Helpers/IQueryableExtensions.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/Services/IPropertyMappingService.cs" />
@@ -90,35 +173,54 @@
         <option value="$PROJECT_DIR$/CLibrary.API/Helpers/ResourceUriType.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/Models/CourseForUpdateDTO.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/ValidationAttributes/CourseTitleDescriptionValidation.cs" />
-        <option value="$PROJECT_DIR$/CLibrary.API/Models/CourseForManipulationDto.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/Models/AuthorFullDto.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/Helpers/DateTimeOffsetExtensions.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/Models/AuthorForManipulationDto.cs" />
-        <option value="$PROJECT_DIR$/CLibrary.API/Models/AuthorForCreationDto.cs" />
-        <option value="$PROJECT_DIR$/CLibrary.API/Models/AuthorForCreationWithDateOfDeathDto.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/Profiles/AuthorsProfile.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/ActionConstraints/RequestHeaderMatchesMediaTypeAttribute.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/Logging/ILoggingActionFilter.cs" />
-        <option value="$PROJECT_DIR$/CLibrary.API/Startup.cs" />
-        <option value="$PROJECT_DIR$/CLibrary.API/Controllers/CoursesController.cs" />
-        <option value="$PROJECT_DIR$/CLibrary.API/DbContexts/CourseLibraryContext.cs" />
-        <option value="$PROJECT_DIR$/CLibrary.API/Controllers/AuthorsController.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/Logging/AbstractLogger.cs" />
+        <option value="$PROJECT_DIR$/CLibrary.API/Models/AuthorDto.cs" />
+        <option value="$PROJECT_DIR$/CLibrary.API/Models/AuthorForCreationDto.cs" />
+        <option value="$PROJECT_DIR$/CLibrary.API/Models/AuthorForCreationWithDateOfDeathDto.cs" />
+        <option value="$PROJECT_DIR$/CLibrary.API/Models/AuthorForUpdateDto.cs" />
+        <option value="$PROJECT_DIR$/CLibrary.API/Models/CourseForUpdateDto.cs" />
+        <option value="$PROJECT_DIR$/CLibrary.API/Models/CourseForManipulationDto.cs" />
+        <option value="$PROJECT_DIR$/CLibrary.API/Entities/Author.cs" />
+        <option value="$PROJECT_DIR$/CLibrary.API/Entities/Course.cs" />
+        <option value="$PROJECT_DIR$/CLibrary.API/OperationFilters/CreateBookOperationFilter.cs" />
+        <option value="$PROJECT_DIR$/CLibrary.API/wwwroot/Assets/custom-ui.css" />
+        <option value="$PROJECT_DIR$/CLibrary.API/Services/ICourseLibraryRepository.cs" />
+        <option value="$PROJECT_DIR$/CLibrary.API/Auth/BasicAuthHandler.cs" />
+        <option value="$PROJECT_DIR$/CLibrary.API/DbContexts/CourseLibraryContext.cs" />
+        <option value="$PROJECT_DIR$/CLibrary.API/Program.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/Controllers/AuthorCollectionsController.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/55da6951-4a6c-45b3-b1f7-3c744feeb548/console.sql" />
+        <option value="$PROJECT_DIR$/CLibrary.API/Controllers/AuthorsController.cs" />
+        <option value="$PROJECT_DIR$/CLibrary.API/Controllers/CoursesController.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/Controllers/RootController.cs" />
+        <option value="$PROJECT_DIR$/CLibrary.API/Startup.cs" />
+        <option value="$PROJECT_DIR$/CLibrary.API/Services/CourseLibraryRepository.cs" />
         <option value="$PROJECT_DIR$/CLibrary.API/Logging/LoggingActionFilter.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1VeRXF86CZuNm2iGeaTIovTqU4M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlserver" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.CLibrary.API: IIS Express">
@@ -144,6 +246,7 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
+      <browser name="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
@@ -152,6 +255,10 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.CLibrary.API" />
+      <item itemvalue=".NET Launch Settings Profile.CLibrary.API: IIS Express" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -184,6 +291,14 @@
       <workItem from="1577789406839" duration="18444000" />
       <workItem from="1577824062883" duration="2602000" />
       <workItem from="1577871217729" duration="5246000" />
+      <workItem from="1578421795476" duration="1575000" />
+      <workItem from="1578423760098" duration="6587000" />
+      <workItem from="1578508714117" duration="8882000" />
+      <workItem from="1578579535503" duration="16624000" />
+      <workItem from="1578768338093" duration="13471000" />
+      <workItem from="1578930286548" duration="5921000" />
+      <workItem from="1579012224279" duration="2917000" />
+      <workItem from="1579203390359" duration="1877000" />
     </task>
     <servers />
   </component>
@@ -192,95 +307,128 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="139" key="GridCell.Tab.0.bottom" timestamp="1577877656401">
+    <state x="360" y="71" key="#Web_Browsers" timestamp="1578423274339">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="139" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577877656401" />
-    <state width="1493" height="139" key="GridCell.Tab.0.center" timestamp="1577877656401">
+    <state x="360" y="71" key="#Web_Browsers/0.0.1536.824@0.0.1536.824" timestamp="1578423274339" />
+    <state x="164" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578939482715">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="139" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577877656401" />
-    <state width="1493" height="139" key="GridCell.Tab.0.left" timestamp="1577877656401">
+    <state x="164" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578939482715" />
+    <state width="1493" height="15" key="GridCell.Tab.0.bottom" timestamp="1579205086671">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="139" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577877656401" />
-    <state width="1493" height="139" key="GridCell.Tab.0.right" timestamp="1577877656401">
+    <state width="1493" height="15" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579205086671" />
+    <state width="1493" height="15" key="GridCell.Tab.0.center" timestamp="1579205086670">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="139" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577877656401" />
-    <state width="1493" height="158" key="GridCell.Tab.1.bottom" timestamp="1577815628114">
+    <state width="1493" height="15" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579205086670" />
+    <state width="1493" height="15" key="GridCell.Tab.0.left" timestamp="1579205086670">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577815628114" />
-    <state width="1493" height="158" key="GridCell.Tab.1.center" timestamp="1577815628110">
+    <state width="1493" height="15" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579205086670" />
+    <state width="1493" height="15" key="GridCell.Tab.0.right" timestamp="1579205086670">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577815628110" />
-    <state width="1493" height="158" key="GridCell.Tab.1.left" timestamp="1577815628110">
+    <state width="1493" height="15" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579205086670" />
+    <state width="1493" height="113" key="GridCell.Tab.1.bottom" timestamp="1578782681478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577815628110" />
-    <state width="1493" height="158" key="GridCell.Tab.1.right" timestamp="1577815628114">
+    <state width="1493" height="113" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578782681478" />
+    <state width="1493" height="113" key="GridCell.Tab.1.center" timestamp="1578782681478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577815628114" />
-    <state width="1493" height="158" key="GridCell.Tab.2.bottom" timestamp="1577815628114">
+    <state width="1493" height="113" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578782681478" />
+    <state width="1493" height="113" key="GridCell.Tab.1.left" timestamp="1578782681478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577815628114" />
-    <state width="1493" height="158" key="GridCell.Tab.2.center" timestamp="1577815628114">
+    <state width="1493" height="113" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578782681477" />
+    <state width="1493" height="113" key="GridCell.Tab.1.right" timestamp="1578782681478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1577815628114" />
-    <state width="1493" height="158" key="GridCell.Tab.2.left" timestamp="1577815628114">
+    <state width="1493" height="113" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578782681478" />
+    <state width="1493" height="113" key="GridCell.Tab.2.bottom" timestamp="1578782681478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1577815628114" />
-    <state width="1493" height="158" key="GridCell.Tab.2.right" timestamp="1577815628114">
+    <state width="1493" height="113" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578782681478" />
+    <state width="1493" height="113" key="GridCell.Tab.2.center" timestamp="1578782681478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1577815628114" />
-    <state width="1493" height="158" key="GridCell.Tab.3.bottom" timestamp="1577815628114">
+    <state width="1493" height="113" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1578782681478" />
+    <state width="1493" height="113" key="GridCell.Tab.2.left" timestamp="1578782681478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577815628114" />
-    <state width="1493" height="158" key="GridCell.Tab.3.center" timestamp="1577815628114">
+    <state width="1493" height="113" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1578782681478" />
+    <state width="1493" height="113" key="GridCell.Tab.2.right" timestamp="1578782681478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1577815628114" />
-    <state width="1493" height="158" key="GridCell.Tab.3.left" timestamp="1577815628114">
+    <state width="1493" height="113" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1578782681478" />
+    <state width="1493" height="113" key="GridCell.Tab.3.bottom" timestamp="1578782681478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1577815628114" />
-    <state width="1493" height="158" key="GridCell.Tab.3.right" timestamp="1577815628114">
+    <state width="1493" height="113" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578782681478" />
+    <state width="1493" height="113" key="GridCell.Tab.3.center" timestamp="1578782681478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1577815628114" />
-    <state width="1493" height="158" key="GridCell.Tab.4.bottom" timestamp="1577815628114">
+    <state width="1493" height="113" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1578782681478" />
+    <state width="1493" height="113" key="GridCell.Tab.3.left" timestamp="1578782681478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577815628114" />
-    <state width="1493" height="158" key="GridCell.Tab.4.center" timestamp="1577815628114">
+    <state width="1493" height="113" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1578782681478" />
+    <state width="1493" height="113" key="GridCell.Tab.3.right" timestamp="1578782681478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1577815628114" />
-    <state width="1493" height="158" key="GridCell.Tab.4.left" timestamp="1577815628114">
+    <state width="1493" height="113" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1578782681478" />
+    <state width="1493" height="113" key="GridCell.Tab.4.bottom" timestamp="1578782681479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1577815628114" />
-    <state width="1493" height="158" key="GridCell.Tab.4.right" timestamp="1577815628114">
+    <state width="1493" height="113" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578782681479" />
+    <state width="1493" height="113" key="GridCell.Tab.4.center" timestamp="1578782681478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="158" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1577815628114" />
-    <state x="193" y="119" key="RiderGenerateDialog" timestamp="1577813068278">
+    <state width="1493" height="113" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1578782681478" />
+    <state width="1493" height="113" key="GridCell.Tab.4.left" timestamp="1578782681478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="193" y="119" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1577813068278" />
+    <state width="1493" height="113" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1578782681478" />
+    <state width="1493" height="113" key="GridCell.Tab.4.right" timestamp="1578782681479">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="113" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1578782681479" />
+    <state x="193" y="119" key="RiderGenerateDialog" timestamp="1578590311308">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="193" y="119" key="RiderGenerateDialog/0.0.1536.824@0.0.1536.824" timestamp="1578590311308" />
     <state x="98" y="55" width="1324" height="713" key="SettingsEditor" timestamp="1577735276949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="98" y="55" width="1324" height="713" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577735276949" />
+    <state x="630" y="125" key="VCS.ChangeListViewerDialog" timestamp="1578429594176">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="630" y="125" key="VCS.ChangeListViewerDialog/0.0.1536.824@0.0.1536.824" timestamp="1578429594176" />
+    <state x="61" y="2" width="1255" height="720" key="dock-window-1" timestamp="1578591652050">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="61" y="2" width="1255" height="720" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1578591652050" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1578774176893">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1578774176893" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -300,55 +448,81 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/CLibrary.API/Controllers/AuthorsController.cs</url>
-          <line>185</line>
+          <line>210</line>
           <properties documentPath="$PROJECT_DIR$/CLibrary.API/Controllers/AuthorsController.cs" initialLine="154">
             <startOffsets>
-              <option value="8639" />
+              <option value="9938" />
             </startOffsets>
             <endOffsets>
-              <option value="8698" />
+              <option value="9997" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/CLibrary.API/Controllers/AuthorsController.cs</url>
-          <line>201</line>
+          <line>227</line>
           <properties documentPath="$PROJECT_DIR$/CLibrary.API/Controllers/AuthorsController.cs" initialLine="170">
             <startOffsets>
-              <option value="9580" />
+              <option value="10960" />
             </startOffsets>
             <endOffsets>
-              <option value="9639" />
+              <option value="11019" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/CLibrary.API/Controllers/AuthorsController.cs</url>
-          <line>135</line>
+          <line>154</line>
           <properties documentPath="$PROJECT_DIR$/CLibrary.API/Controllers/AuthorsController.cs" initialLine="103">
             <startOffsets>
-              <option value="6458" />
+              <option value="7492" />
             </startOffsets>
             <endOffsets>
-              <option value="6529" />
+              <option value="7563" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/CLibrary.API/Controllers/CoursesController.cs</url>
-          <line>45</line>
+          <line>46</line>
           <properties documentPath="$PROJECT_DIR$/CLibrary.API/Controllers/CoursesController.cs" initialLine="37">
             <startOffsets>
-              <option value="1971" />
+              <option value="2028" />
             </startOffsets>
             <endOffsets>
-              <option value="2011" />
+              <option value="2080" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/CLibrary.API/OperationFilters/CreateBookOperationFilter.cs</url>
+          <line>16</line>
+          <properties documentPath="$PROJECT_DIR$/CLibrary.API/OperationFilters/CreateBookOperationFilter.cs" initialLine="10">
+            <startOffsets>
+              <option value="807" />
+            </startOffsets>
+            <endOffsets>
+              <option value="808" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/CLibrary.API/Controllers/AuthorCollectionsController.cs</url>
+          <line>46</line>
+          <properties documentPath="$PROJECT_DIR$/CLibrary.API/Controllers/AuthorCollectionsController.cs" initialLine="46">
+            <startOffsets>
+              <option value="1714" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1777" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
+using CLibrary.API.Entities;
 using CLibrary.API.Models;
-using CourseLibrary.API.Entities;
 
 namespace CLibrary.API.Profiles {
     public class CoursesProfile : Profile {

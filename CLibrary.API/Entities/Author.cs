@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace CourseLibrary.API.Entities
+namespace CLibrary.API.Entities
 {
+    #pragma warning disable CS1591
     public class Author
     {
         [Key]
@@ -28,4 +29,5 @@ namespace CourseLibrary.API.Entities
         public ICollection<Course> Courses { get; set; }
             = new List<Course>();
     }
+    #pragma warning restore CS1591
 }

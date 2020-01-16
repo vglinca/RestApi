@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
+using CLibrary.API.Entities;
 using CLibrary.API.Helpers;
 using CLibrary.API.Models;
-using CourseLibrary.API.Entities;
 
 namespace CLibrary.API.Profiles {
     public class AuthorsProfile : Profile {

@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using CLibrary.API.DbContexts;
+using CLibrary.API.Entities;
 using CLibrary.API.Helpers;
 using CLibrary.API.Models;
 using CLibrary.API.ResourceParameters;
-using CourseLibrary.API.Entities;
-using CourseLibrary.API.Services;
+using Microsoft.EntityFrameworkCore;
 
 namespace CLibrary.API.Services
 {
@@ -39,7 +40,7 @@ namespace CLibrary.API.Services
             mContext.Courses.Remove(course);
         }
   
-        public Course GetCourse(Guid authorId, Guid courseId){
+        public async Task<Course> GetCourseAsync(Guid authorId, Guid courseId){
             if (authorId == Guid.Empty){
                 throw new ArgumentNullException(nameof(authorId));
             }
@@ -48,17 +49,17 @@ namespace CLibrary.API.Services
                 throw new ArgumentNullException(nameof(courseId));
             }
 
-            return mContext.Courses.FirstOrDefault(c => c.AuthorId == authorId && c.Id == courseId);
+            return await mContext.Courses
+                .FirstOrDefaultAsync(c => c.AuthorId == authorId && c.Id == courseId);
         }
 
-        public IEnumerable<Course> GetCourses(Guid authorId){
+        public async Task<IEnumerable<Course>> GetCoursesAsync(Guid authorId){
             if (authorId == Guid.Empty){
                 throw new ArgumentNullException(nameof(authorId));
             }
-
-            return mContext.Courses
+            return await mContext.Courses
                         .Where(c => c.AuthorId == authorId)
-                        .OrderBy(c => c.Title).ToList();
+                        .OrderBy(c => c.Title).ToListAsync();
         }
 
         public void UpdateCourse(Course course){
@@ -77,12 +78,12 @@ namespace CLibrary.API.Services
             mContext.Authors.Add(author);
         }
 
-        public bool AuthorExists(Guid authorId){
+        public async Task<bool> AuthorExistsAsync(Guid authorId){
             if (authorId == Guid.Empty){
                 throw new ArgumentNullException(nameof(authorId));
             }
 
-            return mContext.Authors.Any(a => a.Id == authorId);
+            return await mContext.Authors.AnyAsync(a => a.Id == authorId);
         }
 
         public void DeleteAuthor(Author author){
@@ -93,18 +94,19 @@ namespace CLibrary.API.Services
             mContext.Authors.Remove(author);
         }
         
-        public Author GetAuthor(Guid authorId){
+        public async Task<Author> GetAuthorAsync(Guid authorId){
             if (authorId == Guid.Empty){
                 throw new ArgumentNullException(nameof(authorId));
             }
 
-            return mContext.Authors.FirstOrDefault(a => a.Id == authorId);
+            return await mContext.Authors.FirstOrDefaultAsync(a => a.Id == authorId);
         }
 
         public PagedList<Author> GetAuthors(AuthorsResourceParams authorsResourceParameters){
             if(authorsResourceParameters == null){
                 throw new ArgumentNullException(nameof(authorsResourceParameters));
             }
+
             var collection = mContext.Authors as IQueryable<Author>;
             if (!string.IsNullOrWhiteSpace(authorsResourceParameters.MainCategory)){
                 var mainCategory = authorsResourceParameters.MainCategory.Trim();
@@ -120,36 +122,38 @@ namespace CLibrary.API.Services
                 var mappingDictionary = mPropertyMappingService.GetPropertyMapping<AuthorDto, Author>();
                 collection = collection.ApplySort(authorsResourceParameters.OrderBy, mappingDictionary);
             }
-
+            
             return PagedList<Author>.Create(collection, authorsResourceParameters.PageNumber,
                 authorsResourceParameters.PageSize);
         }
 
         public IEnumerable<Author> GetAuthors(){
-            return mContext.Authors.ToList<Author>();
+            return mContext.Authors.ToList();
         }
          
-        public IEnumerable<Author> GetAuthors(IEnumerable<Guid> authorIds){
+        public async Task<IEnumerable<Author>> GetAuthorsAsync(IEnumerable<Guid> authorIds){
             if (authorIds == null){
                 throw new ArgumentNullException(nameof(authorIds));
             }
 
-            return mContext.Authors.Where(a => authorIds.Contains(a.Id))
+            return await mContext.Authors
+                .Where(a => authorIds
+                    .Contains(a.Id))
                 .OrderBy(a => a.FirstName)
                 .ThenBy(a => a.LastName)
-                .ToList();
+                .ToListAsync();
         }
 
         public void UpdateAuthor(Author author){
         }
 
-        public bool Save(){
-            return (mContext.SaveChanges() >= 0);
+        public async Task<bool> SaveChangesAsync(){
+            return await mContext.SaveChangesAsync() >= 0;
         }
 
         public void Dispose(){
             Dispose(true);
-            GC.SuppressFinalize(this);
+            GC.SuppressFinalize(obj: this);
         }
 
         private void Dispose(bool disposing){
